@@ -1,0 +1,99 @@
+/*HEADER*/
+* {
+	margin: 0px;
+
+}
+ul li{
+	display: inline;
+	padding: 0.3em;
+	margin-right: 0.3em;
+}
+
+a {
+	list-style-type : none;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav {
+	margin-top: 1em;
+	float: right;
+}
+
+#signIn {
+	font-weight: bold;
+	text-decoration: none;
+	border: 0px;
+	color: white;
+	background-color: #3A92E7; 
+	border-radius: 0.2em;
+}
+
+#signIn:hover {
+	box-shadow: 1px 1px 5px #999;
+	
+}
+
+
+/*LOGO & SEARCH*/
+
+input:focus {
+     outline:  none;
+}
+#center {
+	clear: both;
+	margin-right: 30%;
+	margin-left: 30%;
+	float: center;
+}
+
+#searchbox {
+
+	padding: 12px 200px;
+	text-align: center;
+}
+
+#logo {
+	margin: 25% 10% 3% 25%;
+	height: 6.5em;
+	width: 18em;
+}
+
+button {
+	margin: auto;
+	margin-top: 2em;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+
+#but1 {
+	margin-left: 30%;
+}
+
+/*FOOTER*/
+#fr {
+	margin-right: 0px;
+	margin-top: 9em;
+	color: grey;
+	display: flex;
+	background-color: #EBECEC;
+	border: 1px solid #DEDFDF;
+}
+#footer {
+
+	border: 1px solid #DEDFDF;
+	background-color: #EBECEC;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0px;
+}
+
+.grey {
+	color: grey;
+}
